@@ -1,4 +1,4 @@
 FROM golang:latest
-WORKDIR testdir
+WORKDIR /testdir
 COPY . .
 ENTRYPOINT ["go", "test", "-v", "./..."]
