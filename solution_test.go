@@ -2,13 +2,12 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"testing"
 )
 
 func TestIntMinTableDriven(t *testing.T) {
 
-	log.Println("Running TestIntMinTableDriven")
+	fmt.Println("Running TestIntMinTableDriven")
 
 	var tests = []struct {
 		a, b int
